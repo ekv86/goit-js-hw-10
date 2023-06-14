@@ -35,6 +35,7 @@
 
 .cat-info {
   display: flex;
+  width: 800px;
 }
 
 img {
