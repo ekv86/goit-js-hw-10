@@ -20,6 +20,9 @@ fetchBreeds()
         selectEl.innerHTML = createMarkupSelect(data);
         selectEl.hidden = false;
         loaderEl.style.display = 'none';
+        new SlimSelect({
+            select: '.breed-select'
+        })
     })
     .catch(err => {
         loaderEl.style.display = 'none';
