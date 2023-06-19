@@ -3,6 +3,7 @@ import { fetchCatByBreed } from "./cat-api";
 import './sass/index.css';
 import Notiflix from 'notiflix';
 import SlimSelect from 'slim-select';
+import "slim-select/dist/slimselect.css";
 
 const selectEl = document.querySelector('.breed-select');
 const loaderEl = document.querySelector('.loader');
